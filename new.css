@@ -1,6 +1,26 @@
 /* #two{
     color: greenyellow;
 } */
-.r{
+/* .r{
     background-color: red;
+} */
+
+/* 
+span p{
+    background-color: red;
+} */
+
+/* ol li:nth-of-type(even){
+    background-color: red;
+} */
+
+div{
+    height: 200px;
+    width: 200px;
+    background-color: blueviolet;
+    transition: 4s;
+}
+div:hover{
+    background-color: yellow;
+    border-radius: 50%;
 }

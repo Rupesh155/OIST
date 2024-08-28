@@ -1,0 +1,33 @@
+div{
+    background-color: red;
+
+    border: 2px solid black;
+    padding: 20px;
+    margin: 20px;
+    height: 200px;
+    width: 200px;
+ } 
+
+
+/* css units */
+
+/* div{
+    height: 300px;
+} */
+/* 
+#parent{
+    height: 50vh;
+    width: 100vw;
+    background-color: orange;
+} */
+/* #child{
+    height: 50%;
+    width: 50%;
+    background-color: black;
+} */
+/* 9406662185 */
+
+li{
+    /* font-size: 10px; */
+    font-size: 2em;
+}
