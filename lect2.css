@@ -1,4 +1,4 @@
-div{
+/* div{
     background-color: red;
 
     border: 2px solid black;
@@ -6,9 +6,7 @@ div{
     margin: 20px;
     height: 200px;
     width: 200px;
- } 
-
-
+ }  */
 /* css units */
 
 /* div{
@@ -27,7 +25,82 @@ div{
 } */
 /* 9406662185 */
 
-li{
+/* li{ */
     /* font-size: 10px; */
-    font-size: 2em;
+    /* font-size: 2em; */
+/* } */
+
+
+/* div{
+    background-color: red;
+    height: 200px;
+    width: 200px; */
+    /* display: inline; */
+/* } */
+/* span{ */
+    /* background-color: blue;/ */
+    /* height: 200px;
+    width: 200px; */
+    /* display: block; */
+    /* display: inline-block; */
+    /* display: none; */
+    /* visibility: hidden; */
+    /* display: none; */
+/* } */
+
+
+/* div{
+    height: 150px;
+    width: 150px;
+    display: inline-block; */
+/* } */
+/* div:nth-of-type(1){ */
+    /* background-color: yellow; */
+/* } */
+/* div:nth-of-type(2){ */
+    /* background-color: green; */
+  /* position: static; */
+  /* top: 100px; */
+  /* position: relative; */
+  /* top: 100px; */
+  /* left: 100px; */
+  /* position: absolute; 
+  top: 5px; */
+  /* position: fixed; */
+  /* top: 100px; */
+/* }
+div:nth-of-type(3){
+    background-color: red;
+} */
+
+/* flex box */
+#parent{
+    border: 5px solid black;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    /* align-items: center; */
+    /* flex-direction: row-reverse; */
+    /* justify-content: baseline;
+    /* justify-content: center; */
+    /* justify-content: end; */
+    /* justify-content: space-around; */
+    /* justify-content: space-between; */ */
+    /* justify-content: space-evenly; */
+    /* align-items:center; */
+
+}
+#parent div{
+    height: 150px;
+    width: 150px;
+}
+#parent div:nth-of-type(1){
+    background-color: red;
+}
+#parent div:nth-of-type(2){
+    background-color: goldenrod;
+}
+#parent div:nth-of-type(3){
+    background-color: palevioletred;
 }
