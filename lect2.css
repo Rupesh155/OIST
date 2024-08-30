@@ -74,12 +74,12 @@ div:nth-of-type(3){
 } */
 
 /* flex box */
-#parent{
+/* #parent{
     border: 5px solid black;
     height: 500px;
     display: flex;
     justify-content: space-around;
-    flex-wrap: wrap;
+    flex-wrap: wrap; */
     /* align-items: center; */
     /* flex-direction: row-reverse; */
     /* justify-content: baseline;

@@ -1,0 +1,130 @@
+/* nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+#child{
+    display: flex;
+    justify-content: space-around;
+    background-color: red;
+    width: 451px;
+}
+p{
+    color: white;
+} */
+
+/* 
+#parent{
+    border: 5px solid black;
+    height: 700px;
+
+}
+#parent div{
+    height: 150px;
+    width: 150px;
+    transition: 4s;
+}
+
+#parent:hover div{
+    margin-left: 1721px;
+    border-radius: 50%;
+}
+#parent div:nth-of-type(1){
+    background-color: gold;
+    transition-timing-function: linear;
+    
+}
+#parent div:nth-of-type(2){
+    background-color: blueviolet;
+    transition-timing-function: ease-in;
+    
+}
+#parent div:nth-of-type(3){
+    background-color: green;
+    transition-timing-function: ease-out;
+    
+}#parent div:nth-of-type(4){
+    background-color: red;
+    transition-timing-function: ease-in-out;
+    
+}
+ */
+/* 
+ div{
+    background-color: red;
+    height: 200px;
+    width: 200px;
+ 
+ } */
+/*  
+div:hover{
+    animation-name: kuchbhi;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    
+}
+
+ @keyframes kuchbhi {
+    0%{
+        background-color: greenyellow;
+        width: 500px;
+        height: 700px;
+      
+    }
+    25%{
+        background-color: blue;
+        width: 70vw;
+        height: 80vh;
+        border-radius: 50%;
+    }
+    50%{
+        background-color: orangered;
+        height: 100vh;
+    }
+    100%{
+        background-color: black;
+    }
+    
+ } */
+
+ /* h2:hover{ */
+/*  */
+    /* transform: translate(300px,300px); */
+    /* transform: scaleY(2); */
+    /* transform: rotateY(360deg);
+    transition: 3s; */
+ /* } */
+
+
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.ball {
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    background: linear-gradient(blue, red);
+    border-radius: 50%;
+    border: 5px solid black;
+    animation-name: bounce;
+    animation-duration: 900ms;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+    /* animation: 900ms ease-in 0s infinite alternate none running bounce; */
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateY(0px);
+    }
+
+    100% {
+        transform: translateY(85vh) rotate(360deg);
+    }
+}
