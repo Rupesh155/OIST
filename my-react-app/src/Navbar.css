@@ -1,0 +1,23 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+}
+li{
+    color: wheat;
+    /* text-align: none; */
+}
+a{
+    color: wheat;
+}
+#child{
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+}

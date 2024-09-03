@@ -35,13 +35,13 @@
 // h1.style.color='red'
 
 
-let btn= document.querySelector('button')
-let body= document.querySelector('body')
+// let btn= document.querySelector('button')
+// let body= document.querySelector('body')
 
-btn.addEventListener('click',function(){
-    body.style.backgroundColor='red'
+// btn.addEventListener('click',function(){
+//     body.style.backgroundColor='red'
 
-})
+// })
 
 
 // let inp= document.querySelector('input')
@@ -52,5 +52,7 @@ btn.addEventListener('click',function(){
 //     h2.innerText=e.target.value
 
 // })
+
+console.log('hello');
 
 
